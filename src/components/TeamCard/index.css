@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.item {
+  list-style-type: none;
+  width: 50%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 80%;
+  padding: 12px;
+  margin: 12px;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.name {
+  text-align: center;
+  font-size: 12px;
+  margin-left: 4px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+    margin-left: 14px;
+  }
+}
